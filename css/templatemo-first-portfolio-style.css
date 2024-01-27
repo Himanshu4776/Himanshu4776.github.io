@@ -481,6 +481,7 @@ strong {
   overflow: hidden;
   padding-top: 330px;
   padding-bottom: 330px;
+  mix-blend-mode:multiply;
 }
 
 @media  screen and (min-width: 991px) {
@@ -530,8 +531,9 @@ strong {
   position: absolute;
   z-index: 22;
   top: 0;
-  width: 100%;
+  width: 90%;
   min-width: 550px;
+  border-radius: 10%;
 }
 
 .hero svg {
