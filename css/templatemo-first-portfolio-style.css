@@ -1282,3 +1282,21 @@ strong {
   z-index: 1001;
   display: none;
 }
+
+@media screen and (max-width: 991px) {
+  .services-thumb {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+  }
+  
+  .services-thumb-up {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .services-thumb {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+}
