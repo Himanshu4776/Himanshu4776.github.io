@@ -97,6 +97,9 @@ const videoId1 = extractYouTubeID(videoURL1);
 const videoURL2 = 'https://youtu.be/MxFyKEwLcVc?si=m_woIGxIzBayxFUr';
 const videoId2 = extractYouTubeID(videoURL2);
 
+const videoURL3 = 'https://youtu.be/2DFPnxcuPxo?si=uOWlD6wC090dVt1q';
+const videoId3 = extractYouTubeID(videoURL3);
+
 if (videoId) {
     createYouTubeEmbed(videoId, 'video-container');
 } else {
@@ -111,6 +114,12 @@ if (videoId1) {
 
 if (videoId2) {
   createYouTubeEmbed(videoId2, 'video-container2');
+} else {
+  console.error('Invalid YouTube URL');
+}
+
+if (videoId3) {
+  createYouTubeEmbed(videoId3, 'video-container3');
 } else {
   console.error('Invalid YouTube URL');
 }
